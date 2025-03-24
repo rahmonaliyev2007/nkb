@@ -16,7 +16,7 @@ export default function WhyWe() {
         <div>
             <TextAnimate once delay={0.7} startOnView={true} animation="slideUp" by="line" duration={0.4} className="text-4xl text-center font-bold opacity-100 mt-[200px]">
                 {`Nega Bizni Tanlashingiz Kerak`}
-            </TextAnimate>a
+            </TextAnimate>
             <hr className="border-none bg-white/90 rounded h-[3px] mt-4 mb-10 w-[30%] m-auto" />
             <div className="max-w-[1240px] rounded-lg relative text-white m-auto overflow-hidden bg-black/60 border-2 border-white/10 p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {reasons.map((reason, index) => (
